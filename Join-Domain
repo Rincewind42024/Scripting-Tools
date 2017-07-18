@@ -1,3 +1,0 @@
-$secpasswd = "PASSWORD" | ConvertTo-SecureString -AsPlainText -Force
-$mycreds = New-Object System.Management.Automation.PSCredential ("DOMAIN\USERNMAE", $secpasswd)
-Add-Computer -DomainName DOMAIN -Credential $mycreds -Force
